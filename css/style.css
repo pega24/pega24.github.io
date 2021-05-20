@@ -432,7 +432,10 @@ footer p {
   padding-top: 20px;
 }
 
-
+a
+{
+  color: #000000;
+}
 
 
 /* Responsive*/
