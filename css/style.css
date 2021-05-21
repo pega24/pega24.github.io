@@ -82,7 +82,6 @@ p {
   line-height: 28px;
   font-size: 15px;
   font-family: 'Inconsolata', monospace;
-  font-weight: bold;
   text-transform: uppercase;
   color: #000000;
   text-align: center;
@@ -215,28 +214,18 @@ width: 600px;
   -webkit-align-items: center;
   -ms-flex-align: center;
       align-items: center;
-  height: 100vh;
   text-align: center;
   background-size: cover;
-  padding-top: 100px;
+  padding-top: 25px;
   
 }
 
-#home2 {
-  background-size: cover;
-  background-position: center;
-  color: #ffffff;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-      align-items: center;
-  height: 25vh;
-  text-align: center;
-  background-size: cover;
-  
+#spacer
+{
+padding-top: 100vh;
 }
+
+
 #home h1 {
   font-size: 60px;
   font-weight: bolder;
@@ -485,8 +474,14 @@ video {
 
 @media (max-width: 440px) {
   #home {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
+
+.spacer
+{
+padding-top: 0%;
+}
+
   #home h1 {
     font-size: 60px;
     text-align: center;
